@@ -10,3 +10,31 @@ body {
     margin: 0;
     font-family: 'Poppins';
 }
+
+svg {
+    width: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #2f2f2f;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
