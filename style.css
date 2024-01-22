@@ -42,6 +42,7 @@ header {
 
 .icon-cart {
     position: relative;
+    cursor: pointer;
 }
 
 .icon-cart span {
@@ -103,4 +104,17 @@ header {
 
 .cartTab .listCart::-webkit-scrollbar {
     width: 0;
+}
+
+.cartTab {
+    right: -400px;
+    transition: 0.5s;
+}
+
+body.activeTabCart .cartTab {
+    right: 0;
+}
+
+body.activeTabCart .container {
+    transform: translateX(-250px);
 }
